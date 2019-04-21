@@ -1,0 +1,156 @@
+html, body {
+	margin 0;
+	padding 0;
+}
+
+body {
+	text-align center;
+	background url('..imagesbg.jpg');
+	background-size100% 110%; 
+	font-family Arial,Helvetica,sans-serif;
+}
+
+h1 {
+	font-size 28pt;
+	letter-spacing 12px;
+	border-bottom 1px solid #ddd;
+	margin 0;
+}
+
+h2.subtitle {
+	margin-top 0px;
+	margin-bottom 40px;
+}
+
+#container {
+	
+	margin 100px auto;
+	margin-top25px;
+	
+	width 700px;
+	color #555;
+	padding10px;
+		-webkit-border-radius 6px;
+-moz-border-radius 6px;
+border-radius 6px;
+}
+
+
+#icerik{
+
+
+	-webkit-border-radius 6px;
+-moz-border-radius 6px;
+border-radius 6px;
+	background-size 100% 100%;
+}
+
+#countdown_dashboard {
+	height 160px;
+	width 600px;
+	float left;
+	overflow hidden;
+	background url(httpwww.idangero.uspreviewm-launcher-ximagesclock-whiteclock-bg.png);
+	-webkit-border-radius 6px;  -moz-border-radius 6px;  border-radius 6px;
+	-moz-box-shadow 0px 0px 12px 0px rgb(0, 0, 0);    
+	-webkit-box-shadow 0px 0px 12px 0px rgb(0, 0, 0);    
+	box-shadow 0px 0px 12px 0px rgb(0, 0, 0);
+	margin-left52px;
+
+	margin-bottom25px;
+}
+
+.dash {
+	width 135px;
+	height 114px;
+	background transparent url('httpwww.idangero.uspreviewm-launcher-ximagesclock-white3bg.png') 0 0 no-repeat;
+	float left;
+	margin-left 13px;
+	position relative;
+	margin-top 30px;
+}
+
+.dash .digit {
+	font-size 55pt;
+	font-weight bold;
+	float left;
+	width 55px;
+	text-align center;
+	font-family Times;
+	color #555;
+	position relative;
+}
+
+.dash_title {
+	position absolute;
+	display block;
+	bottom 0px;
+	right 45px;
+	font-size 13pt;
+	color #333;
+	letter-spacing 2px;
+	font-weightbold;
+	text-shadow 0px 0px 7px #fff;
+}
+
+.dev_comment {
+	font-size 14pt;
+	color #777;
+        padding-top14px;
+	text-align center;
+	font-style italic;
+}
+
+#subscribe_form {
+	position relative;
+} 
+
+#email_field {
+	font-size 16pt;
+	padding 6px 10px;
+	width 300px;
+}
+
+#subscribe_button {
+	font-size 14pt;
+	color #333;
+	padding 4px 8px;
+}
+
+.copyright {
+	font-size 9pt;
+	color #333;
+	margin 40px 0px;
+}
+
+.faded {
+	color #999;
+}
+
+.form_message {
+	width 400px;
+	padding 10px;
+	margin 15px auto;
+	display none;
+}
+
+#error_message {
+	background-color #ffe;
+	border-left 5px solid #bb3;
+	border-right 5px solid #bb3;
+	color #770;
+}
+
+#info_message {
+	background-color #f0f9ff;
+	border 1px solid #eef;
+}
+
+#loading {
+	text-align center;
+	margin 10px;
+	display none;
+	position absolute;
+	width 100%;
+	top 60px;
+}
